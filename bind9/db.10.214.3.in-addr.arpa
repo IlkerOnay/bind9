@@ -1,0 +1,14 @@
+$TTL 1d;
+	@ IN SOA dnsin-01.in.iutbeziers.fr. admin.iutbeziers.fr. (
+	2022090901 ; Serial
+	43200 ; Refresh
+	21600 ; Retry
+	3600000 ; Expire
+	86400 ) ; Minimum
+;
+; ================ Serveurs du Domaine ====================
+;
+	IN NS dnsin-01.in.iutbeziers.fr.
+; -------------------------- Machines -------------------------------
+
+65.3.214.10 IN PTR dnsin-01.in.iutbeziers.fr.
